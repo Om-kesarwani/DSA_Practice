@@ -1,0 +1,13 @@
+public class basic {
+    public static void anu(){   // in void no need of return type
+        System.out.println("helo anu");
+        ayam();
+    }
+    public static void main(String[] args) {
+        System.out.println("this is the main ");
+        anu();
+    }
+    public static void ayam(){
+        System.out.println("this is new method");
+    }
+}
